@@ -1,7 +1,14 @@
+import "./styles/App.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import SearchBar from "./components/SearchBar";
+
 function App() {
   return (
     <>
-      <h1>Weather Dashboard</h1>
+      <Navbar />
+      <SearchBar/>
+      <Footer/>
     </>
   );
 }
